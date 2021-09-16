@@ -4,9 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Google</title>
 </head>
 <body>
-    
+    <div class="flex-container" id="body-container">
+        <nav class="flex-container" id="navbar-container">
+            <a class="navbar-link" href="#">About</a>
+            <a class="navbar-link" href="#">Store</a>
+            <div id="non-left-aligned">
+                <div class="flex-container" id="right-aligned">
+                    <div id="left-container">
+                        <div class="link-container">
+                            <a class="navbar-link" href="#">Gmail</a>
+                        </div>
+                        <div class="link-container">
+                            <a class="navbar-link" href="#">Images</a>
+                        </div>
+                    </div>
+                    <div id="right-container">
+                        <div class="link-container">
+                            <a class="navbar-link" href="#"></a>
+                        </div>
+                        <a class="navbar-link navbar-button" href="#">Sign in</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="flex-container" id="image-container"></div>
+        <div id="search-container"></div>
+        <div class="flex-container" id="empty-container"></div>
+        <footer class="footer-container">
+            <div class="flex-container" id="footer-flexbox">
+                <div class="flex-container" id="footer-left">
+                    <a class="footer-link" href="#">Advertising</a>
+                    <a class="footer-link" href="#">Business</a>
+                    <a class="footer-link" href="#">How Search works</a>
+                </div>
+                <div class="flex-container" id="footer-center">
+                    <a class="footer-link" href="#">
+                        <img class="footer-image" alt src="img/download.png">
+                        <span class="footer-span">Carbon neutral since 2007</span>
+                    </a>
+                </div>
+                <div class="flex-container" id="footer-right">
+                    <a class="footer-link" href="#">Privacy</a>
+                    <a class="footer-link" href="#">Terms</a>
+                    <a class="footer-link" href="#">Settings</a>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
